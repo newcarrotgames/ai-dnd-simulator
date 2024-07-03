@@ -1,0 +1,147 @@
+{
+  "characterName": "Bricken",
+  "classAndLevel": "Barbarian 1",
+  "experiencePoints": 0,
+  "playerName": "",
+  "race": "Firbolg",
+  "background": "Folk Hero",
+  "campaignOrPlayerId": "",
+  "abilityScores": {
+    "STR": {"score": 16, "modifier": 3},
+    "DEX": {"score": 13, "modifier": 1},
+    "CON": {"score": 14, "modifier": 2},
+    "INT": {"score": 10, "modifier": 0},
+    "WIS": {"score": 14, "modifier": 2},
+    "CHA": {"score": 8, "modifier": -1}
+  },
+  "proficiencyBonus": 2,
+  "savingThrows": {
+    "Strength": 5,
+    "Dexterity": 1,
+    "Constitution": 4,
+    "Intelligence": 0,
+    "Wisdom": 2,
+    "Charisma": -1
+  },
+  "skills": {
+    "Acrobatics": 1,
+    "Animal Handling": 4,
+    "Arcana": 0,
+    "Athletics": 3,
+    "Deception": -1,
+    "History": 0,
+    "Insight": 2,
+    "Intimidation": -1,
+    "Investigation": 0,
+    "Medicine": 2,
+    "Nature": 2,
+    "Perception": 4,
+    "Performance": -1,
+    "Persuasion": -1,
+    "Religion": 0,
+    "Sleight of Hand": 1,
+    "Stealth": 1,
+    "Survival": 4
+  },
+  "passivePerception": 14,
+  "proficienciesAndLanguages": {
+    "armor": ["light armor", "medium armor", "shields"],
+    "weapons": ["simple weapons", "martial weapons"],
+    "tools": ["glassblower's tools", "vehicles (land craft)"],
+    "savingThrows": ["Strength", "Constitution"],
+    "skills": ["Animal Handling", "Nature", "Perception", "Survival"],
+    "languages": ["Common", "Elvish", "Giant"]
+  },
+  "armorClass": 13,
+  "initiative": 1,
+  "speed": "30 ft.",
+  "hitPoints": {
+    "maximum": 14,
+    "current": 14,
+    "hitDice": "1d12"
+  },
+  "attacks": [
+    {
+      "name": "Greataxe",
+      "type": "Melee Weapon Attack",
+      "toHit": 5,
+      "reach": "5 ft.",
+      "damage": "1d12+3 slashing",
+      "notes": "Must be used two-handed."
+    },
+    {
+      "name": "Handaxe",
+      "type": "Melee Weapon Attack",
+      "toHit": 5,
+      "reach": "5 ft.",
+      "damage": "1d6+3 slashing",
+      "range": "20/60 ft.",
+      "notes": "Can be thrown"
+    },
+    {
+      "name": "Javelin",
+      "type": "Melee Weapon Attack",
+      "toHit": 5,
+      "reach": "5 ft.",
+      "damage": "1d6+3 piercing",
+      "range": "30/120 ft.",
+      "notes": "Can be thrown"
+    }
+  ],
+  "equipment": [
+    "greataxe",
+    "two (2) handaxes",
+    "five (5) javelins",
+    "explorer's pack",
+    "glassblower's tools",
+    "belt pouch",
+    "set of common clothes",
+    "iron pot",
+    "shovel"
+  ],
+  "money": {
+    "gold": 3,
+    "silver": 71,
+    "copper": 21,
+    "gems": [
+      {"quantity": 4, "value": 10}
+    ]
+  },
+  "featuresAndTraits": {
+    "alignment": "Neutral",
+    "background": {
+      "feature": "Rustic Hospitality",
+      "traits": [
+        "Obsessed with gardening",
+        "Confident outlook"
+      ],
+      "ideal": "Judges actions, not words",
+      "bond": "Owes debt to nobles",
+      "flaw": "Actually ashamed of rural roots"
+    },
+    "racialTraits": [
+      "Creature Type: Fey",
+      "Age: 100 years old",
+      "Medium Size (7' 3\", 305 lbs.)",
+      "Firbolg Magic (detect magic or disguise self once per short rest)",
+      "Hidden Step (invisible as bonus action once per short rest)",
+      "Powerful Build (carry, push, drag, lift as if large size)",
+      "Speech Of Beast And Leaf (Charisma adv. with beasts and animals)"
+    ],
+    "classFeatures": [
+      "Rage (2/day)",
+      "Unarmored Defense (AC)"
+    ]
+  },
+  "specialAbilities": {
+    "rage": {
+      "usesPerDay": 2,
+      "effects": [
+        "Advantage on STR checks and saves",
+        "+2 bonus on STR-based melee damage",
+        "Resistance (half damage) from bludgeoning, piercing and slashing damage"
+      ],
+      "duration": "1 minute (10 rounds), or until unconscious, haven't attacked or been hit"
+    }
+  }
+}

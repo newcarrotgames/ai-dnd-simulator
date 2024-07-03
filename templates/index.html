@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>AI Powered Dungeon Master Simulator</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+	<script src="{{ url_for('static', filename='js/app.js') }}"></script>
+	<!-- <img src="{{ url_for('static', filename='images/logo.png') }}" alt="Logo"> -->
+</head>
+
+<body onload="init()">
+	<audio id="diceSound" src="{{ url_for('static', filename='sounds/dice.mp3') }}"></audio>
+	<div id="containers">
+		<div id="left-container">
+			<h2>Game</h2>
+			<div class="layout">
+				<div id="dm" class="player-node" data-player-id="0">
+					<div class="player-seat">DM</div>
+				</div>
+				<div id="p1" class="player-node" data-player-id="1">
+					<div class="player-seat">P1
+						<span class="player-name"></span>
+					</div>
+					<div class="character-sheet-link">Character Sheet</div>
+				</div>
+				<div id="p2" class="player-node" data-player-id="2">
+					<div class="player-seat">P2
+						<span class="player-name"></span>
+					</div>
+					<div class="character-sheet-link">Character Sheet</div>
+				</div>
+				<div id="p3" class="player-node" data-player-id="3">
+					<div class="player-seat">P3
+						<span class="player-name"></span>
+					</div>
+					<div class="character-sheet-link">Character Sheet</div>
+				</div>
+			</div>
+			<div class="bottom-element">
+				<button id="micToggle" class="mic-button">Unmute</button>
+			</div>
+		</div>
+		<div id="right-container">
+			<h2>Conversation Log</h2>
+			<div id="conversation-log"></div>
+		</div>
+	</div>
+	<div class="dice-container">
+		<button onclick="rollDie(4)">d4</button>
+		<button onclick="rollDie(6)">d6</button>
+		<button onclick="rollDie(8)">d8</button>
+		<button onclick="rollDie(10)">d10</button>
+		<button onclick="rollDie(12)">d12</button>
+		<button onclick="rollDie(20)">d20</button>
+		<button onclick="rollDie(100)">d100</button>
+	</div>
+	<div id="result">Please roll a dice</div>
+</body>
+
+</html>

@@ -1,0 +1,144 @@
+{
+  "characterName": "Vrymalaath",
+  "classAndLevel": "Druid 1",
+  "experiencePoints": 0,
+  "playerName": "",
+  "race": "Githyanki",
+  "background": "Noble",
+  "campaignOrPlayerId": "",
+  "abilityScores": {
+    "STR": {"score": 10, "modifier": 0},
+    "DEX": {"score": 13, "modifier": 1},
+    "CON": {"score": 14, "modifier": 2},
+    "INT": {"score": 11, "modifier": 0},
+    "WIS": {"score": 15, "modifier": 2},
+    "CHA": {"score": 12, "modifier": 1}
+  },
+  "proficiencyBonus": 2,
+  "savingThrows": {
+    "Strength": 0,
+    "Dexterity": 1,
+    "Constitution": 2,
+    "Intelligence": 2,
+    "Wisdom": 4,
+    "Charisma": 1
+  },
+  "skills": {
+    "Acrobatics": 1,
+    "Animal Handling": 2,
+    "Arcana": 0,
+    "Athletics": 0,
+    "Deception": 1,
+    "History": 2,
+    "Insight": 4,
+    "Intimidation": 1,
+    "Investigation": 0,
+    "Medicine": 4,
+    "Nature": 2,
+    "Perception": 2,
+    "Performance": 1,
+    "Persuasion": 3,
+    "Religion": 0,
+    "Sleight of Hand": 1,
+    "Stealth": 1,
+    "Survival": 2
+  },
+  "passivePerception": 12,
+  "proficienciesAndLanguages": {
+    "armor": ["light armor", "medium armor", "shields (nonmetal only)"],
+    "weapons": ["club", "dagger", "dart", "greatsword", "javelin", "longsword", "mace", "quarterstaff", "scimitar", "shortsword", "sickle", "sling", "spear"],
+    "tools": ["gaming set (Dragonchess)", "herbalism kit"],
+    "savingThrows": ["Intelligence", "Wisdom"],
+    "skills": ["History", "Insight", "Medicine", "Nature", "Persuasion"],
+    "languages": ["Common", "Drudic", "Elvish", "Gith", "Draconic"]
+  },
+  "armorClass": 14,
+  "initiative": 1,
+  "speed": "30 ft.",
+  "hitPoints": {
+    "maximum": 10,
+    "current": 10,
+    "hitDice": "1d8"
+  },
+  "attacks": [
+    {
+      "name": "Scimitar",
+      "type": "Melee Weapon Attack",
+      "toHit": 3,
+      "reach": "5 ft.",
+      "damage": "1d6+1 slashing"
+    },
+    {
+      "name": "Dagger",
+      "type": "Melee or Ranged Weapon Attack",
+      "toHit": 3,
+      "reach": "5 ft.",
+      "range": "20/60 ft.",
+      "damage": "1d4+1 piercing"
+    },
+    {
+      "name": "Shillelagh Club",
+      "type": "Melee Spell/Weapon Attack",
+      "toHit": 4,
+      "reach": "5 ft.",
+      "damage": "1d8+2 bludgeoning",
+      "notes": "Cantrip effect on weapon lasts for 1 minute."
+    }
+  ],
+  "equipment": [
+    "leather armor (AC 11)",
+    "shield (AC +2)",
+    "scimitar",
+    "club",
+    "dagger",
+    "sling and 20 stones",
+    "set of fine clothes",
+    "signet ring",
+    "scroll of pedigree",
+    "purse"
+  ],
+  "money": {
+    "gold": 7,
+    "silver": 25,
+    "copper": 3,
+    "gems": [
+      {"quantity": 3, "value": 10}
+    ]
+  },
+  "featuresAndTraits": {
+    "alignment": "Lawful Good",
+    "background": {
+      "feature": "Position of Privilege",
+      "traits": [
+        "Wears old spellstone jewels around wrist",
+        "Sarcastic manner"
+      ],
+      "ideal": "Pushing for democracy",
+      "bond": "Seeks approval from family",
+      "flaw": "Doesn't see any problem with a 90% tax rate"
+    },
+    "racialTraits": [
+      "Creature Type: Humanoid",
+      "Age: 37 years old",
+      "Medium Size (6' 6\", 219 lbs.)",
+      "Decadent Mastery (extra proficiencies)",
+      "Martial Prodigy (weapon proficiencies)",
+      "Githyanki Psionics (Invisible Mage Hand cantrip)"
+    ],
+    "classFeatures": [
+      "Ritual Casting"
+    ]
+  },
+  "spellcasting": {
+    "spellAbility": "Wisdom",
+    "spellAttackModifier": 4,
+    "spellSaveDC": 12,
+    "cantripsKnown": ["Guidance", "Shillelagh"],
+    "preparedSpells": {
+      "1st": ["Detect Magic", "Cure Wounds", "Animal Friendship"]
+    },
+    "spellSlots": {
+      "1st": 2
+    }
+  }
+}

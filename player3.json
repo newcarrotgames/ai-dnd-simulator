@@ -1,0 +1,132 @@
+{
+	"characterName": "Lelih Warde",
+	"classAndLevel": "Cleric 1",
+	"experiencePoints": 0,
+	"playerName": "",
+	"race": "Human",
+	"background": "Hermit",
+	"campaignOrPlayerId": "",
+	"abilityScores": {
+	  "STR": {"score": 13, "modifier": 1},
+	  "DEX": {"score": 9, "modifier": -1},
+	  "CON": {"score": 14, "modifier": 2},
+	  "INT": {"score": 15, "modifier": 2},
+	  "WIS": {"score": 16, "modifier": 3},
+	  "CHA": {"score": 11, "modifier": 0}
+	},
+	"proficiencyBonus": 2,
+	"savingThrows": {
+	  "Strength": 1,
+	  "Dexterity": -1,
+	  "Constitution": 2,
+	  "Intelligence": 2,
+	  "Wisdom": 5,
+	  "Charisma": 2
+	},
+	"skills": {
+	  "Acrobatics": -1,
+	  "Animal Handling": 3,
+	  "Arcana": 4,
+	  "Athletics": 1,
+	  "Deception": 0,
+	  "History": 6,
+	  "Insight": 5,
+	  "Intimidation": 0,
+	  "Investigation": 2,
+	  "Medicine": 5,
+	  "Nature": 2,
+	  "Perception": 3,
+	  "Performance": 0,
+	  "Persuasion": 2,
+	  "Religion": 6,
+	  "Sleight of Hand": -1,
+	  "Stealth": -1,
+	  "Survival": 3
+	},
+	"passivePerception": 13,
+	"proficienciesAndLanguages": {
+	  "armor": ["light armor", "medium armor", "shields"],
+	  "weapons": ["simple weapons"],
+	  "tools": ["herbalism kit"],
+	  "savingThrows": ["Wisdom", "Charisma"],
+	  "skills": ["Arcana", "History", "Insight", "Medicine", "Persuasion", "Religion"],
+	  "languages": ["Common", "Dwarvish", "Elvish", "Giant", "Orc"]
+	},
+	"armorClass": 15,
+	"initiative": -1,
+	"speed": "30 ft.",
+	"hitPoints": {
+	  "maximum": 10,
+	  "current": 10,
+	  "hitDice": "1d8"
+	},
+	"attacks": [
+	  {
+		"name": "Mace",
+		"type": "Melee Weapon Attack",
+		"toHit": 3,
+		"reach": "5 ft.",
+		"damage": "1d6+1 bludgeoning"
+	  },
+	  {
+		"name": "Light Crossbow",
+		"type": "Ranged Weapon Attack",
+		"toHit": 1,
+		"damage": "1d8-1 piercing",
+		"range": "80/320 ft.",
+		"notes": "Must be used two-handed, reloading limits to only one attack per round regardless of extra attacks."
+	  }
+	],
+	"equipment": [
+	  "scale mail (AC 14)",
+	  "shield (AC +2)",
+	  "mace",
+	  "herbalism kit",
+	  "set of common clothes",
+	  "scroll case stuffed full of personal notes",
+	  "winter blanket"
+	],
+	"money": {
+	  "gold": 9,
+	  "silver": 20,
+	  "copper": 13,
+	  "gems": [
+		{"quantity": 4, "value": 10}
+	  ]
+	},
+	"featuresAndTraits": {
+	  "alignment": "Neutral Good",
+	  "background": {
+		"feature": "Discovery (great secret)",
+		"traits": [
+		  "Joined a communal group",
+		  "Raised on a storm giant's remote island"
+		],
+		"ideal": "Truth unlocks cosmic power",
+		"bond": "Urges others to become your students",
+		"flaw": "Easily falls back into worldly vices"
+	  },
+	  "racialTraits": [
+		"Creature Type: Humanoid",
+		"Age: 30 years old",
+		"Medium Size (5' 3\", 131 lbs.)"
+	  ],
+	  "classFeatures": [
+		"Ritual Casting",
+		"Blessing Of Knowledge (bonus languages, skill expertise)"
+	  ]
+	},
+	"spellcasting": {
+	  "spellAbility": "Wisdom",
+	  "spellAttackModifier": 5,
+	  "spellSaveDC": 13,
+	  "cantripsKnown": ["Light", "Resistance", "Thaumaturgy"],
+	  "preparedSpells": {
+		"1st": ["Command", "Identify", "Cure Wounds", "Bless", "Bane", "Inflict Wounds"]
+	  },
+	  "spellSlots": {
+		"1st": 2
+	  },
+	  "notes": "Command and Identify are always prepared and do not count against number of prepared spells."
+	}
+  }
